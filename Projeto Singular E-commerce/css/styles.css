@@ -1,0 +1,268 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f5f5f5; /* Cor de fundo */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Estilos do cabeçalho */
+.navbar1 {
+    background-color: #f5f5f5; /* Cor de fundo do cabeçalho */
+    position: fixed;
+    max-width: 2000px;
+    width: 1520px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamanho da fonte do logotipo */
+    font-weight: bold; /* Negrito */
+}
+
+.nav-link {
+    color: #555; /* Cor dos links de navegação */
+}
+
+.nav-link:hover {
+    color: #000; /* Cor dos links de navegação ao passar o mouse */
+}
+
+/* Estilos da seção principal */
+.sectionup {
+    background-color: #000000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 3rem 0; /* Espaçamento interno */
+}
+
+.titulo {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
+.botao {
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-top: 1rem; /* Margem superior */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin-top: 1rem; /* Margem superior */
+}
+
+/* Estilos da segunda seção */
+.sectionup2 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.texto2 {
+    font-size: 1rem; /* Tamanho da fonte */
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o texto */
+    font-size: 25px;
+}
+
+/* Estilos da seção de informações adicionais */
+.section2 {
+    background-color: #0b0b0b; /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+    color: #f5f5f5; /* Tamanho da fonte */
+}
+
+.oquesuaempresa {
+    border-left: 2px solid white;
+    height: 200px;
+
+}
+
+.direita {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 1rem; /* Margem inferior */
+}
+
+.h01, .h02, .h03, .h04, .h05{
+    margin-bottom: 1.5rem; /* Margem inferior */
+    border-bottom: 2px solid white;
+}
+
+
+
+#suporte:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.section2 h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
+.section2 p {
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estilos da seção "O que fazemos" */
+.oquefazemos {
+    background-color: #f8f8f8; /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.titulo3 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: left;
+    border-top: 2px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#titulo4  {
+    border-left: 2px solid black;
+    padding: 5px;
+}
+
+.img {
+    max-width: 100%; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-top: 1rem; /* Margem superior */
+}
+
+.titulo5, .titulo6, .titulo7 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-top: 1rem; /* Margem superior */
+}
+
+.oquefazemos p {
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.saiba {
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-top: 1rem; /* Margem superior */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilos da seção de diferencial */
+.diferencialtodo {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.titulo8 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 1rem; /* Margem inferior */
+    border-top: 2px solid black;
+}
+.diferencial {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.paragrafo {
+    font-size: 1rem; /* Tamanho da fonte */
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o texto */
+    margin-bottom: 2rem; /* Margem inferior */
+}
+
+
+.card {
+    background-color: #ffffff; /* Cor de fundo do cartão */
+    color: #fff; /* Cor do texto do cartão */
+    border: none; /* Sem borda */
+    margin-left: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card p {
+    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+#cards {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: none;
+}
+
+.cards {
+    padding: 1rem; /* Espaçamento interno */
+    background-color: #f5f5f5;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#querocontratar {
+    background: none; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: 1px solid white; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-top: 2rem; /* Margem superior */
+}
+
+#querocontratar:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s;
+}
+
+.img2 {
+    border-radius: 10px; /* Bordas arredondadas */
+    max-height: 250px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f5f5f5; /* Cor de fundo */
+    color: #555; /* Cor do texto */
+    padding: 1rem 0; /* Espaçamento interno */
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 767px) {
+    .sectionup .titulo {
+        font-size: 2rem; /* Tamanho da fonte reduzido */
+    }
+
+    .diferencial {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .botao, .saiba, #querocontratar {
+        font-size: 0.875rem; /* Tamanho da fonte reduzido */
+        padding: 0.5rem; /* Espaçamento interno reduzido */
+    }
+
+    .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8 {
+        font-size: 1.5rem; /* Tamanho da fonte reduzido */
+    }
+
+    .paragrafo {
+        font-size: 0.875rem; /* Tamanho da fonte reduzido */
+    }
+}
+
